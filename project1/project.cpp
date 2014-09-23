@@ -8,10 +8,14 @@ int main()
   cin>>o;
   cin>>p;
   if (n!=o)
-    cout<<"invalid input"<<endl;
+    {
+      cout<<"invalid input"<<endl;
+      return 1;
+    }
   int A[m][n];
   int B[n][p];
   int C[m][p];
+
   for (i=0;i<m;i++)
     {
       for (j=0;j<n;j++)
