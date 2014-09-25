@@ -7,7 +7,7 @@ int main()
   cin>>n;
   cin>>o;
   cin>>p;
-  if (n!=o)
+  if (n!=o || m<=0 || n<=0 || o<=0 || p<=0)
     {
       cout<<"invalid input"<<endl;
       return 1;
